@@ -39,7 +39,7 @@ export default function Home() {
 
       <div className="resultbox">
         <div className="result" style={{ width: `${width}%`, backgroundColor: getColor(simvalue) }}>
-        {simvalue?.toFixed(1)}
+        {simvalue?.toFixed(1)}%
         </div>
 
       </div>
